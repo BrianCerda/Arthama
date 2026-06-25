@@ -1,0 +1,199 @@
+.logo-icon {
+  max-width: 15%;
+}
+
+.logo-icon:hover {
+  opacity: 60%;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-header {
+  color: #D9397C;
+  font-size: 150%;
+  transition: color 0.5s ease-in-out;
+}
+
+.icon-header:hover {
+  color: #EBA0BF;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-link, .dropdown-item {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  color: #D9397C;
+}
+
+.nav-link:hover {
+  color: #D9397C;
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-item:hover {
+  color: #D9397C;
+  transition: all 0.7s ease;
+}
+
+.footer-text {
+  color: white;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+}
+
+.footer-title {
+  font-family: "Madimi One", sans-serif;
+  font-size: 150%;
+}
+
+.footer-p {
+  font-family: "Montserrat", serif;
+}
+
+.link-footer {
+  color: black;
+  font-weight: 500;
+}
+
+.link-footer:hover {
+  color: #D9397C;
+  transition: color 0.2s ease-in-out;
+}
+
+.icon-footer {
+  font-size: 150%;
+  color: #D9397C;
+}
+
+h1 {
+  font-family: "Madimi One", sans-serif;
+  color: #D9397C;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Madimi One", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", serif;
+  color: black;
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: #D9397C;
+  transition: all 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #EBA0BF;
+}
+
+.precio {
+  font-family: "Madimi One", sans-serif;
+  color: #D9397C;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+span {
+  color: #D9397C;
+}
+
+.jd-bg-card {
+  background-color: #ececec;
+}
+
+.jd-img-card {
+  border-radius: 5px;
+}
+
+.boton-r {
+  padding: 5% 8% 5% 8%;
+  text-decoration: none;
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0);
+  font-family: "Montserrat", serif;
+  background-color: #D9397C;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  transition: all 0.7s ease;
+}
+
+.boton-r:hover {
+  background-color: #EBA0BF;
+  color: white;
+}
+
+.boton-rs {
+  padding: 2% 5% 2% 5%;
+  text-decoration: none;
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0);
+  font-family: "Montserrat", serif;
+  font-size: 0.7rem;
+  background-color: #D9397C;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+
+.descuento {
+  background-color: #D9397C;
+  color: white;
+  border-radius: 100%;
+  position: absolute;
+  padding: 4% 2% 4% 2%;
+  margin-top: 5%;
+  margin-left: 78%;
+  font-weight: bolder;
+}
+
+.btn-send {
+  background-color: #D9397C;
+  color: white;
+  border: 1px solid #D9397C;
+  border-radius: 1rem;
+  transition: all 0.7s ease;
+}
+
+.btn-send:hover {
+  background-color: #EBA0BF;
+  border: 1px solid #EBA0BF;
+  transition: all 0.7s ease;
+}
+
+.carrito-2 {
+  color: white;
+}
+
+input {
+  width: 2rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #D9397C;
+  border-color: rgba(255, 255, 255, 0);
+  --bs-btn-hover-bg: #EBA0BF;
+  --bs-btn-hover-border-color: #EBA0BF;
+  --bs-btn-active-bg: #EBA0BF;
+  --bs-btn-active-border-color: #EBA0BF;
+}
+
+.video-container {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.video-i {
+  width: 100%;
+  aspect-ratio: 16/9;
+}/*# sourceMappingURL=style.css.map */

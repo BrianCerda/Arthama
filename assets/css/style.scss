@@ -1,0 +1,165 @@
+@import 'header-footer.scss';
+
+$primary-color: #D9397C;
+$secondary-color: black;
+$hover-color: #EBA0BF;
+$white-color: white;
+$ter-color:#ececec;
+$font-text-1: "Madimi One", sans-serif;
+$font-text-2: "Montserrat", serif;
+$font-size-pricipal: 1rem;
+$font-size-h1: 3rem;
+$font-size-h2: 2.5rem;
+$font-size-h3: 2rem;
+
+h1{
+    font-family: $font-text-1;
+    color: $primary-color;
+    font-size: $font-size-h1;
+    font-weight: bolder;
+}
+
+h2{
+    font-size:$font-size-h2;
+    font-family:$font-text-1;
+}
+
+p{
+    font-family: $font-text-2;
+    color: $secondary-color;
+    font-size: $font-size-pricipal;
+}
+
+.nav-link{
+    color: $primary-color;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.nav-link:hover{
+    color: $hover-color;
+}
+
+.precio{
+    font-family: $font-text-1;
+    color: $primary-color;
+    font-size: $font-size-h1;
+    font-weight: bolder;
+}
+
+span{
+    color: $primary-color;
+}
+
+.jd-bg-card{
+    background-color:$ter-color ;
+}
+
+.jd-img-card{
+    border-radius: 5px;
+}
+
+.boton-r{
+    padding: 5% 8% 5% 8%;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: #ffffff00;
+    font-family: $font-text-2;
+    background-color: $primary-color;
+    color: $white-color;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.boton-r:hover{
+    background-color: $hover-color;
+    color: $white-color;
+    
+}
+
+.boton-rs{
+    padding: 2% 5% 2% 5%;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: #ffffff00;
+    font-family: $font-text-2;
+    font-size: 0.7rem;
+    background-color: $primary-color;
+    color: $white-color;
+    margin-top: 1%;
+    margin-bottom: 8%;
+
+
+}
+
+.descuento{
+    background-color: $primary-color;
+    color: $white-color;
+    border-radius: 100%;
+    position: absolute;
+    padding: 4% 2% 4% 2%;
+    margin-top: 5%;
+    margin-left: 78%;
+    font-weight: bolder;
+}
+
+.btn-send{
+    background-color: $primary-color;
+    color: $white-color;
+    border: 1px solid $primary-color;
+    border-radius: 1rem;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.btn-send:hover{
+    background-color: $hover-color;
+    border: 1px solid $hover-color;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.carrito-2{
+    color: $white-color;
+}
+
+input{
+    width: 2rem;
+    text-align: center;
+
+}
+
+.btn-primary{
+    background-color: $primary-color;
+    border-color: #ffffff00;
+    --bs-btn-hover-bg: #EBA0BF;
+    --bs-btn-hover-border-color: #EBA0BF;
+    --bs-btn-active-bg: #EBA0BF;
+    --bs-btn-active-border-color: #EBA0BF;
+
+}
+
+.video-container{
+    max-width: 50rem;
+    margin: auto;
+}
+
+.video-i{
+width:100%;
+aspect-ratio: 16 / 9;
+
+}

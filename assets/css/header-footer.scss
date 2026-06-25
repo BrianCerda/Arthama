@@ -1,0 +1,103 @@
+$primary-color: #D9397C;
+$secondary-color: black;
+$hover-color: #EBA0BF;
+$white-color: white;
+$font-text-1: "Madimi One", sans-serif;
+$font-text-2: "Montserrat", serif;
+
+
+
+.logo-icon{
+    max-width: 15%;
+}
+
+.logo-icon:hover{
+    opacity: 60%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon-header{
+    color: $primary-color;
+    font-size: 150%;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.icon-header:hover{
+    color: $hover-color;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.nav-link, .dropdown-item{
+    font-family: $font-text-2;
+    font-weight: 600;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link.active{
+    color: $primary-color;
+}
+
+.nav-link:hover{
+    color: $primary-color;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.dropdown-item:hover{
+    color: $primary-color;
+    transition: all 0.7s ease;
+}
+
+.footer-text{
+    color: $white-color;
+    font-weight: 600;
+    font-family: $font-text-2;
+}
+
+.footer-title{
+    font-family: $font-text-1;
+    font-size: 150%;
+}
+
+.footer-p{
+    font-family: $font-text-2;
+}
+
+.link-footer{
+    color: $secondary-color;
+    font-weight: 500;
+    
+}
+
+.link-footer:hover{
+    color: $primary-color;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.icon-footer{
+    font-size: 150%;
+    color: $primary-color;
+}
